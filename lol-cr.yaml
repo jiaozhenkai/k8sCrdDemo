@@ -1,0 +1,6 @@
+apiVersion: hero.k8s.io/v1
+kind: Heros
+metadata:
+  name: master-yi
+spec:
+  work: assassin
