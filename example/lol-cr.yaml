@@ -1,6 +1,8 @@
 apiVersion: hero.k8s.io/v1
-kind: Heros
+kind: Hero
 metadata:
-  name: master-yi
+  name: first-hero
 spec:
+  name: master-yi
   work: assassin
+  age: 18
