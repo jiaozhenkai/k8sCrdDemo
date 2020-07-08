@@ -8,10 +8,10 @@ CUSTOM_RESOURCE_NAME="hero"
 # API Version
 CUSTOM_RESOURCE_VERSION="v1"
 
-GO111MODULE=off
+
 
 # 安装k8s.io/code-generator
-# go get -u k8s.io/code-generator/...
+go get -u k8s.io/code-generator/...
 cd $GOPATH/src/k8s.io/code-generator
 
 

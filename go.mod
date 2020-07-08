@@ -1,6 +1,6 @@
 module github.com/jiaozhenkai/k8scrddemo
 
-go 1.13
+go 1.14
 
 require (
 	github.com/emicklei/go-restful v2.13.0+incompatible // indirect
